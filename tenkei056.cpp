@@ -2,7 +2,7 @@
 using namespace std;
 
 // Hirschberg's Algorithm を用いて空間計算量を削減した解法
-// w = wordsize として、O(NS/w) time, O(N+S/w) space
+// w = wordsize として、O(N + (NS/w)) time, O(N + (S/w)) space
 
 // bitset 的なもの
 // n := size / 32 個の unsigned int にデータを管理
